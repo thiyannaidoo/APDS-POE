@@ -30,7 +30,7 @@ const Home = () => {
 
       {/* Credits Section */}
       <footer className="mt-16 text-gray-500 text-sm text-center relative z-10 font-medium">
-        Made with ❤️ by <span className="text-yellow-600">Tamir, Thiyan, Raesa, and Eshvara</span>
+        Made with ❤️ by <span className="text-yellow-600">Rohan, Thiyan, Raeesa, Tamir, and Eshvara</span>
       </footer>
 
       {/* Custom Animations */}

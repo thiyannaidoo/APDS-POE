@@ -1,8 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { LayoutGrid, Send, Clock, PieChart, FileText, DollarSign } from 'lucide-react';
 import PaymentForm from './PaymentForm';
-import TransferFunds from './TransferFunds';
-import RecentTransactions from './RecentTransactions';
 import FinancialInsights from './FinancialInsights';
 import Statements from './Statements';
 import { getBalanceAndTransactions } from '../api';
@@ -35,8 +33,6 @@ const UserHome = ({ token }) => {
 
   const tabs = [
     { id: 'makePayment', label: 'Make a Payment', icon: <DollarSign size={20} /> },
-    { id: 'transferFunds', label: 'Transfer Funds', icon: <Send size={20} /> },
-    { id: 'recentTransactions', label: 'Recent Transactions', icon: <Clock size={20} /> },
     { id: 'financialInsights', label: 'Financial Insights', icon: <PieChart size={20} /> },
     { id: 'statements', label: 'View Statements', icon: <FileText size={20} /> },
   ];
