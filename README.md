@@ -66,7 +66,7 @@ The Customer Portal is a secure web application where customers can register, lo
 
 1. *Clone the repository*:
    bash
-   git clone https://github.com/yourusername/customer-portal.git
+   git clone https://github.com/thiyannaidoo/APDS-POE
    cd customer-portal
    
 
