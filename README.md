@@ -21,6 +21,8 @@
 
 ---
 
+YouTube Link: https://www.youtube.com/watch?v=OihC0Cxd_Wk
+
 ## Overview
 
 The Customer Portal is a secure web application where customers can register, log in, and transfer funds to other users. Additionally, the platform includes an admin portal where administrators can review, approve, or reject payments, manage user accounts, and add new administrators. The application has been developed with a focus on security, functionality, and scalability, and includes automated CI/CD processes to maintain high standards of code quality and application stability.
